@@ -3,7 +3,7 @@ MedBill Pro
 ===========
 
 ++++++++
-PERSONAS
+Personas
 ++++++++
 
 =======     ============================================================
@@ -38,3 +38,14 @@ User Stories
 
 As Jane the Biller, I want to be able to bill the claims faster without having
 to flip through diagnoses books which kills time.
+
+++++++++++++++++++
+Aceeptance Stories
+++++++++++++++++++
+
+Scenario 01: Billing procedue code 76514 (Pacheymetry)
+Given that I have billed procedure code 76514,
+And will have to bill a diagnosis for this test,
+When I enter a diagnosis
+Then it will tell me if the diagnosis can be used for that procedure code
+And if not, it will show "False" and prompt for a new diagnosis.
