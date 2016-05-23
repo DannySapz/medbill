@@ -1,0 +1,7 @@
+********************************************************************************
+SUPERBILL                     John Smith for 5/23/2016
+********************************************************************************
+Insurance: BCBS
+Date of birth: 07/04/1948
+Procedure code(s): 76514
+Diagnosis code(s): Open angle with borderline findings, high risk, bilateral
